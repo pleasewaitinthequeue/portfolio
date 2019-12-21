@@ -4,25 +4,89 @@
     <meta charset="UTF-8">
     <title>Resume</title>
     <link rel="stylesheet" href="css/style.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Cinzel|Permanent+Marker|Playfair+Display|Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Permanent+Marker|Playfair+Display|Noto+Sans|Ubuntu&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet">
 </head>
 <body>
 
 <nav id="nav">
+
     <h1><a href="#summary">John Lairson</a></h1>
-    <ul>
-      <li><a href="#summary">Summary</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#military">Military</a></li>
-      <li><a href="#philanthropy">Philanthropy</a></li>
-    <div class="contact"><i class="material-icons">
-        contact_mail
-    </i></div>
+    <div class="image"></div>
+    <div class="nav-div">
+      <div class="nav-li"><a href="#timeline"> Timeline </a><i class="material-icons">timeline</i></div>
+      <div class="nav-li"><a href="#summary"> Summary </a><i class="material-icons">subject</i></div>
+      <div class="nav-li"><a href="#education"> Education </a><i class="material-icons">school</i></div>
+      <div class="nav-li"><a href="#experience"> Experience </a><i class="material-icons">work_outline</i></div>
+      <div class="nav-li"><a href="#military"> Military </a><i class="material-icons">security</i></div>
+      <div class="nav-li"><a href="#philanthropy"> Philanthropy </a><i class="material-icons">tag_faces</i></div>
+      <div class="contact nav-li" href="#timeline"><a> Contact </a><i class="material-icons">contact_mail</i></div>
+    </div>
 </nav>
 <div class="container">
+  <div class="section" id="timeline">
+    <h1>Timeline</h1><br/>
+    <div class="timeline-item">
+      <div class="timeline-date">2019-Present</div>
+      <div class="timeline-bullet"></div>
+      <div class="timeline-description">
+        <div class="timeline-title">Undergraduate Researcher</div>
+        <div class="timeline-location">Indiana University Purdue University Indianapolis (IUPUI)</div>
+        <div class="timeline-text">
+          Design and Develop React & React Native Cloud Hosted Web and Mobile Platform to Research Educational Efficacy and
+          Mentor individuals and groups of peers while Document Solutions and communicating directly to Stakeholder
+        </div>
+        <br/>
+        <div class="timeline-title">Teaching Assistant</div>
+        <div class="timeline-location">Indiana University Purdue University Indianapolis (IUPUI)</div>
+        <div class="timeline-text">
+          Presented an hour of online video content as part of a weekly course teaching Agile Methodologies for Software Development
+          Evaluated, gave feedback, and assisted grading for a class of two dozen students
+        </div>
+        <br/>
+        <div class="timeline-title">Student Tutor</div>
+        <div class="timeline-location">Indiana University Purdue University Indianapolis (IUPUI)</div>
+        <div class="timeline-text">
+          Assisted students in a variety of Software Engineering subjects to help them succeed in coursework
+          Taught problem solving techniques and identified gaps in learning as well as resources to help the learner self-teach
+          Promoted the use of data as a way to summarize group performance and identify opportunities
+        </div>
+      </div>
+    </div>
+    <br />
+    <div class="timeline-item">
+      <div class="timeline-date">2016-2019</div>
+      <div class="timeline-bullet"></div>
+      <div class="timeline-description">
+        <div class="timeline-title">Data Analyst</div>
+        <div class="timeline-location">Chewy Fulfillment Operations, Clayton, Indiana</div>
+        <div class="timeline-text">
+          Created, operated, and maintained automated systems that compiled and delivered specific reporting for seven warehouses
+          Developed Excel models as a way to help to help managers identify successful staffing models
+          Created and implemented processes to help employees in Training, Safety, and Operations departments collect and analyze
+          operational and tactical data in order to elevate data-driven decision making
+        </div>
+      </div>
+    </div>
+    <br />
+    <div class="timeline-item">
+      <div class="timeline-date">2012-2016</div>
+      <div class="timeline-bullet"></div>
+      <div class="timeline-description">
+        <div class="timeline-title">Reporting Analyst</div>
+        <div class="timeline-location">Interactions LLC, Indianapolis, Indiana</div>
+        <div class="timeline-text">
+          Created, updated, and maintained spreadsheets used to support business processes creating macro programs where appropriate to support process automation
+          Created, updated, and trained payroll computation process to support performance based compensation models supporting two thousand hourly part time employees
+          Mentored and trained peers in the use and of complex spreadsheet formula and macro solutions Assisted and supported forecasting and scheduling plans adhering to requirements in half hour increments
+          Created, Updated, and Supported spreadsheets used to manage employee performance
+          Created, Updated, and Supported spreadsheets used to monitor and manage staffing levels
+        </div>
+      </div>
+    </div>
+  </div>
+    <!--
     <div class="section" id="summary">
         <h1>Summary</h1>
         <hr/>
@@ -163,7 +227,9 @@
         <h1>Philanthropy</h1>
         <p>Operation Care Kit - an organization that works to assemble care packages for people experiencing homelessness in the Indianapolis area.</p>
         <p><a href="https://www.facebook.com/operationcarekit/">Visit the Operation Care Kit Facebook Page</a></p>
-    </div>
+    </div> -->
+</div>
+<div class="contact-container">
 </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>

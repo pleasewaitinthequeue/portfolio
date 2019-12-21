@@ -6,22 +6,20 @@ $("a").click(function(){
 
 $(".contact").click(function(){
     var contactDIV = $("<div></div>");
-    var h1 = $("<h1></h1>");
-    h1.css("color","white");
-    h1.innerHTML = "John Lairson";
-    var h2 = $("<h2></h2>");
-    h2.css("color","white");
-    var mailto = $("<a></a>");
-    mailto.prop("href", "jomalair@iu.edu");
-    mailto.css("color","white");
-    h2.append(mailto);
-    h1.append(h2);
-    contactDIV.append(h1);
+    var h1 = $("<h1>John Lairson</h1>");
+    var mailto = $("<a>john.lairson@johnlairson.com</a>");
+    mailto.prop("href", "mailto:john.lairson@johnlairson.com");
+    var message = $("<p>Click this Box to Close</p>");
+    contactDIV.append(h1, mailto, message);
     contactDIV.addClass("contactme");
-    //contactDIV.append("<h1>John Lairson</h1><br>" + "<h2>email:  <a href='mailto:jomalair@iu.edu'>jomalair@iu.edu</a></h2>");
+
     contactDIV.css({
-        backgroundColor:"black",
-        color:"white",
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+        backgroundColor:"#000000",
+        color:"#ffffff",
         height:"50%",
         width:"50%",
         margin:"0px",
@@ -32,11 +30,11 @@ $(".contact").click(function(){
     });
 
     $("html, body").animate({
-        'scrollTop':$("#summary").offset().top}, 250);
+        'scrollTop':$("#timeline").offset().top}, 250);
     contactDIV.click(function(){
         this.remove();
     });
-
-    $("body").append(contactDIV);
+    $(".contactme").remove();
+    $(".contact-container").append(contactDIV);
 
     });
