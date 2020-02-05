@@ -20,8 +20,8 @@ $(".contact").click(function(){
         justifyContent: "center",
         backgroundColor:"#000000",
         color:"#ffffff",
-        height:"50%",
-        width:"50%",
+        height:"70%",
+        width:"70%",
         margin:"0px",
         zIndex:"100",
         top:"25%",
@@ -30,7 +30,7 @@ $(".contact").click(function(){
     });
 
     $("html, body").animate({
-        'scrollTop':$("#timeline").offset().top}, 250);
+        'scrollTop':$("#summary").offset().top}, 250);
     contactDIV.click(function(){
         this.remove();
     });

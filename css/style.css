@@ -157,9 +157,13 @@ i {
   visibility: hidden;
 }
 
+.bottomnav {
+  visibility: hidden;
+}
+
 @media screen and (max-width: 1000px){
   .container :first-child{
-    margin-top:20%;
+    margin-top:25px;
   }
   .image {
     position: fixed;
@@ -207,7 +211,7 @@ i {
   }
 
   html, body {
-    height: 90%;
+    height: 100%;
     width: 100%;
   }
 
@@ -224,5 +228,20 @@ i {
 
   .hamburger {
     visibility: visible;
+  }
+
+  .bottomnav {
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    height:50px;
+    width:100%;
+    visibility: visible;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    border-top: 2px solid black;
   }
 }
