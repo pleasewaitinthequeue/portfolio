@@ -159,7 +159,7 @@ i {
 
 @media screen and (max-width: 1000px){
   .container :first-child{
-    margin-top:10%;
+    margin-top:20%;
   }
   .image {
     position: fixed;
