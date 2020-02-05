@@ -162,6 +162,12 @@ i {
 }
 
 @media screen and (max-width: 1000px){
+  .container {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
   .image {
     position: fixed;
     height: 50px;
@@ -231,7 +237,7 @@ i {
     position:fixed;
     bottom:0px;
     left:0px;
-    height:50px;
+    height:10%;
     width:100%;
     visibility: visible;
     display: flex;
