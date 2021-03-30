@@ -73,7 +73,8 @@ hr {
   display: inline;
 }
 .keywords a:hover {
-  font-weight: bolder;
+  display: inline;
+  font-weight: boldest;
 }
 .contactme a, .contactme h1, .contactme h2 {
   margin: 10px;

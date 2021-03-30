@@ -1,3 +1,5 @@
+//jQuery 3.3.1 min
+
 $("a").click(function(){
    var idVal = $(this).attr("href");
    $("html, body").animate({
