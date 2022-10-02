@@ -84,7 +84,7 @@ hr {
 }
 
 .image {
-  background-image: url("images/me.jpg");
+  background-image: url("../images/me.jpg");
   width:200px;
   height:200px;
   border-width: 5px;
